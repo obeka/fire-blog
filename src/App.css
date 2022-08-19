@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.truncate {
+  font-size: 1.5rem;
+  width: 100%;
+  overflow: hidden;
+  line-height: 2rem;
+  max-height: 300px;
+  -webkit-box-orient: vertical;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 6;
+}
